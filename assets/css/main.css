@@ -3430,11 +3430,6 @@ input, select, textarea {
 					text-transform: uppercase;
 				}
 
-		#banner.major {
-			height: 75vh;
-			min-height: 30em;
-			max-height: 50em;
-		}
 
 			#banner.major.alt {
 				opacity: 0.75;
@@ -3900,3 +3895,4 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
