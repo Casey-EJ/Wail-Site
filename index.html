@@ -16,6 +16,49 @@
   box-sizing: border-box;
 }
 
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: transparent; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;
+  }
+.overlay-text-a {
+  position: absolute;
+  top: 57%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: transparent; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 33.1px; 
+  text-align: center;
+  }
+.overlay-text-ab {
+  position: absolute;
+  top: 62%; 
+  left: 40.4%; 
+  transform: translate(-50%, -50%); 
+  background-color: transparent; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 15px; 
+  text-align: center;
+  }
+	
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -82,13 +125,17 @@ div.sidenav {
  </div>
 
 <div class="content">
+	
 				<!-- Banner -->
 					<section id="banner" class="major">
 						<div class="inner">
 							<header class="major">
-								<h1>STORIES FROM AN EXPLODING HEAD</h1>
-								<h1>CHAPTER 1</h1>
-								<h3>WAIL</h3>
+								<div class="image-container">
+								        <img src="images/banner.jpg">
+								        <div class="overlay-text">STORIES FROM AN<br>EXPLODING HEAD</div>
+								        <div class="overlay-text-a">CHAPTER 1</div>
+								           <div class="overlay-text-ab">WAIL</div>
+								    </div>
 							</header>
 							<div class="content">
 								<p>A responsive site template designed by HTML5 UP<br />
@@ -233,6 +280,7 @@ div.sidenav {
        </div>
 	</body>
 </html>
+
 
 
 
