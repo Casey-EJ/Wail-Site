@@ -227,6 +227,27 @@ body {
 div.sidenav {
 	line-height: 550%;
 }
+
+div.scroll-container {
+  background-color: transparent;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 20px;
+}
+
+ #article {
+    background-image: url('images/articles.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    height: auto;
+    width; 100%;
+    padding: 40px;
+}
 	
 </style>
 
@@ -272,16 +293,19 @@ div.sidenav {
     				    		</div>
 							</section>
 
+
 					</div>
 
 
-					<section id="two">
-						<div class="image-container art">
-							<img src="images/articles.jpg">
-							<div class="overlay-text-art-one">
+					<section id="article">
+							<div class="scroll-container">
+ 								<a href="elements.html"><img class="art imgP" src="images/article-imagined-places.png" width="160" height="230"></a>
+ 								<a href="elements.html"><img class="art siteL" src="images/article-site-launch.png" width="160" height="230"></a>
+ 								<a href="elements.html"><img class="art siteL" src="images/article-site-launch.png" width="160" height="230"></a>
+ 								<a href="elements.html"><img class="art viol" src="iimages/article-violence.png" width="160" height="230"></a>
 							</div>
-						</div>
-					</section>
+						</section>
+	
 
 					<section id="GR">
 						<div class="image-container ad">
@@ -352,6 +376,7 @@ div.sidenav {
 	</body>
 </head>
 </html>
+
 
 
 
