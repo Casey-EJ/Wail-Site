@@ -81,6 +81,59 @@ div.feat-content {
     height: 100%;
 	padding: 27%;
 }
+
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item-one {
+  margin-left: -200px;
+  margin-top: -200px;
+  border: 0px solid #ccc;
+  width: 180px;
+  float: left;
+  padding: 0px;
+}
+
+div.gallery-item-two {
+  margin-left: -10px;
+  margin-top: -200px;
+  border: 0px solid #ccc;
+  width: 180px;
+}
+
+div.gallery-item-three {
+  margin-left: 300px;
+  margin-top: -225px;
+  border: 1px solid #ccc;
+  width: 180px;
+  height: 300px;
+}
+
+div.gallery-item-four {
+  margin-left: -515px;
+  margin-top: 10px;
+  border: 0px solid #ccc;
+  width: 180px;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.heading {
+  float:right;
+}
+
 	
 </style>
 
@@ -109,11 +162,43 @@ div.feat-content {
     				    	</div>
 					</section>
 
+				  
+					<!-- feature -->
 					<section id="feature-page">
 							<div class="feat-content">
  								<p style="font-family:Times New Roman;">Featurd content</p>
 							</div>
 					</section>
+
+					<section id="feature-page">
+						<div class="gallery">
+							<div class="gallery-item-one">
+					 			<a target="_blank" href="index.html">
+					   			<img src="images/feat-img.PNG" width="300" height="200"></a>
+					 		 	<div class="desc">Preview</div>
+							</div>
+
+							<div class="gallery-item-two">
+						 		<a target="_blank" href="index.html">
+						    	<img src="images/feat-img.PNG" width="120" height="100"></a>
+						  		<div class="desc">Green Forest</div>
+							</div>
+						
+							<div class="gallery-item-three">
+						  		<div class="desc" style="color:white;">Northern Lights heres more writing. and more. and more. and more. and more. and more. and more. and more. and more. and more. and more. and more. and more. and more. and more. and more. and more. and more. and more. and more.  and more. and more. and more. and more. and more. and more. and more. and more. and more. and more.</div>
+						    		<a target="_blank" href="index.html">
+						   	 			<p style="color:black;">READ MORE</p>
+						  			</a>
+							</div>
+						
+							<div class="gallery-item-four">
+						  		<a target="_blank" href="index.html">
+						    		<img src="images/feat-img.PNG" width="300" height="200">
+						  		</a>
+						  		<div class="desc">Mountains</div>
+							</div>
+						</div>
+
 
 													<!-- Footer -->
 					<footer id="footer">
@@ -139,5 +224,6 @@ div.feat-content {
 	</body>
 
 </html>
+
 
 
